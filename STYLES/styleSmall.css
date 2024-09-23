@@ -1,0 +1,26 @@
+/* Cuando la pantalla es menor a 900px */
+@media only screen and (max-width : 901px)  {
+    #banner{
+        background-image: url(../ASSETS/icons/BANNER.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        max-height: 500px;
+        min-height: 200px;
+    }
+    #title{
+        display:table; 
+        padding:25 0 0 25
+    }
+    #aboutme{
+        background-image: url(../ASSETS/icons/ABOUTME.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        max-height: 500px;
+        min-height: 227px;
+      }
+      #aboutmebox{
+        padding: 30;
+        max-width: 500px;
+        min-width: 350px;
+      }
+    }

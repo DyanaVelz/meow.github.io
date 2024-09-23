@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Aleo";
+    font-weight: normal;
+    src: url("../ASSETS/Fonts/Aleo-Regular.ttf");
+  }
+@font-face {
+    font-family: "norwster";
+    font-weight: normal;
+    src: url("../ASSETS/Fonts/norwester.otf");
+  }
+
+  body
+  {
+      font-family: Aleo ;
+      color:#3f3e3d;
+      text-align: justify;
+      margin: 0px;
+  }
+  h1{
+    font-size: 4em;
+  }
+  h2{
+    
+    font-size: 3em;
+  }
+  h4 {
+    font-size: 2.5em;
+    font-weight: normal;
+  }
+  h3{
+    font-size: 2em;
+    margin:10 0px;
+  }
+  h1,h2,h3{
+    font-family: norwster ;
+    font-weight: normal;
+  }
+  h5{
+    font-size: 1em;
+    font-weight: normal;
+  }
+  .separator{
+      height: 7px;
+      background-color: #ffffff;
+  }
+  .image-full-width{
+      width: 100%;
+  }
+  .removemargin{
+    margin:0px;
+  }
+  .primario{
+    color:#9f76fb
+}
+.secundario{
+  color:#3f3e3d
+}
+.bg-primario{
+  background-color:#9f76fb
+}
+.bg-secundario{
+  background-color:#3f3e3d
+}
+.complementario{
+  color:#ffffff
+}
+#banner{
+  background-image: url(../ASSETS/icons/BANNER.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+#aboutme{
+  background-image: url(../ASSETS/icons/ABOUTME.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#serviciosbox,#testimoniobox{
+  padding: 30;
+  text-align: center;
+}
+#servicios,#testimonios{
+      
+  min-height: 600px;
+}
+#servicios .newservice{
+  margin-top: 75px;
+}
+#servicios .newserviceimages{
+  text-align: center;
+}
+#testimonios .testimonio{
+  margin-top: 75px;
+}
+#testimonios{
+  text-align: center;
+}
+.justify{
+  text-align: justify;
+}
+.center{
+  text-align: center;
+}
+#titletestimoniosfull{
+  display: block;
+
+}
+#titletestimoniosmobile{
+  display: none;
+
+}
+#workwithme{
+  background-image: url(../ASSETS/icons/Trabaja.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  text-align: right;
+}
